@@ -35,6 +35,9 @@
                     <a class="nav-link" href="{{ route('enrollments.index') }}">Inscripción</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="{{ route('profesores.index') }}">Profesores</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="{{ route('signOut') }}"
                        onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Cerrar Sesión</a>
                     <form id="logout-form" action="{{ route('signOut') }}" method="POST" style="display: none;">
